@@ -74,5 +74,6 @@ public class Enemy3 extends Actor{
 		images.get(imagen_actual).setY(this.getY());
 		
 		images.get(imagen_actual).draw(batch, parentAlpha);
+		
 	}
 }
